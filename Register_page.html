@@ -1,0 +1,105 @@
+<html>
+<head>
+<title> Swarg contact </title> 
+<style>
+body{
+background-image:url('radhey.jpg');
+background-size:cover;
+background-attachment:fixed;}
+body{
+font-family: Segoe Print;}
+body{
+aside:center;
+aside-bgcolor:gray
+}
+button{
+border-radius:8px;
+border-width:0px;
+border-bottom-color: red;
+background-color:#04AA6D;}  
+input{
+border-radius:8px;
+border:none;
+}																		 <!-- @gohel yash -->
+</head>
+</style>
+<body	align="center" text="black" alink='white' vlink='black':>
+<form action="login_page.html" method="post">
+	<table align="center">
+		<tr>
+			<th>
+				<h1><u><big> Registration </big></u></h1>
+			</th>
+		</tr>
+	</table>
+	<table align="center">
+		<tr>
+			<td><b>
+				E-mail:
+				</b>
+			</td>
+			<td>
+				<input type="text" name="e-mail" placeholder=" e-mail" required>
+			
+			</td><b>
+		</tr>
+		<tr>
+			<td><b>
+				Username:
+				</b>
+			</td>
+			<td>
+				<input type="text" name="username" placeholder=" username" required>
+			
+			</td>
+		</tr>
+		<tr>
+			<td><b>
+				Password:
+				</b>
+			</td>
+			<td>
+				<input type="Password" name="password" placeholder=" Password" minlength="8" maxlength="18" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+			
+			</td>
+		</tr>
+		<tr>
+			<td for="phone"><b>
+				contact:
+				</b>
+			</td>
+			<td>
+				<input type="Tel" id="phone" name="phone" placeholder=" contact no:" pattern="[0-9]{5} [0-9]{5}" required>
+			</td>
+		</tr>
+		<tr>
+			<td><b>
+				Date Of Birth:
+				</b>
+			</td>
+			<td>
+				<input type="date" name="date" placeholder=" mm-dd-yyyy" required>
+			
+			</td>
+		</tr>
+		<tr>
+			<td><b>
+				Gender:
+				</b>
+			</td>
+			<td>
+				Male
+				<input type="radio" name="Gender" value="Male" required>
+				Female
+				<input type="radio" name="Gender" value="Female" required>
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr></br>
+			<button type="submit" style="height:30px; width:250px"> Register </button>
+		<tr>
+	</table>
+</form>
+</body>
+</html>
